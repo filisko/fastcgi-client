@@ -40,7 +40,7 @@ This library came out of the need to perform end-to-end tests in the fastest pos
 
 We could say it fills the gap between browser-based testing tools like Selenium (very slow) and Symfony's KernelTestCase, which doesn't go outside the app, although it's at the very edge (very fast).
 
-By communicating directly with PHP's FastCGI interface via socket connections, it provides true end-to-end feedback with exceptional performance, which allows developers to test their applications from the outside while maintaining the speed needed for efficient test-driven development and go through the full request life cycle; request starts and ends, different than interacting with the App multiple times within the same process).
+By communicating directly with PHP's FastCGI interface via socket connections, it provides true end-to-end feedback with exceptional performance, which allows developers to test their applications from the outside while maintaining the speed needed for efficient test-driven development and go through the full request life cycle; request starts and ends, different than interacting with the App multiple times within the same process.
 
 Additionally, the implementation leverages modern tools like Guzzle Promises for asynchronous processing and standardised PSR-7 responses for seamless integration with your existing knowledge.
 
