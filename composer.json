@@ -23,7 +23,7 @@
     },
     "require": {
         "php": ">=7.2",
-        "filisko/testable-functions": "dev-main",
+        "filisko/testable-functions": "^1.2",
         "guzzlehttp/promises": "^2.2",
         "middlewares/utils": "^2 || ^3 || ^4",
         "psr/http-factory": "^1.0",
@@ -40,8 +40,9 @@
     },
     "suggest": {
         "laminas/laminas-diactoros": "Laminas' PSR-7 and PSR-17 implementation",
-        "nyholm/psr7": "Lightweight PSR-7 and PSR-17 implementation",
-        "guzzlehttp/psr7": "Guzzle's PSR-7 and PSR-17 implementation"
+        "nyholm/psr7": "A Lightweight PSR-7 and PSR-17 implementation",
+        "guzzlehttp/psr7": "Guzzle's PSR-7 and PSR-17 implementation",
+        "sunrise/http-message": "Sunrise's PSR-7, PSR-17 and RFC-7230 implementation"
     },
     "autoload": {
         "psr-4": {
